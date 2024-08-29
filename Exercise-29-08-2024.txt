@@ -1,0 +1,24 @@
+The Charity Collection Box contains money in different currencies - dollars-cents or pounds-pence or rupees-paise. All of these currencies have notes and coins. The note and coin numbers are counted when they are added based on their value (that is number of 5 rupee notes, or $1 dollar note). A base class representing Currency is created with different denomination for notes and coins. Subclass Dollar, Pound and Rupee has conversion methods to rupees, print() and compute(). Create class called CollectionBox that allows entry of these currencies in terms of number of notes and coins of different denomination. Create a display method that allows any of these currency types and displays the total amount collected in terms of Rupees. (Assume1 dollar= Rs. 60 and 1 pound = 2.65 U.S. dollars)
+ 
+================================================================================
+
+Consider a base class  PurchaseItem which models customer’s purchases. This class has:
+two private instance variables name (String) and unitPrice (double).
+One constructor to initialize the instance variables.
+A default constructor to initialize name to “no item”, and unitPrice to 0. use this()
+A method getPrice that returns the unitPrice.
+A toString method to return the name of the item followed by @ symbol, then the unitPrice.
+Consider two derive classes WeighedItem and CountedItem. WeighedItem has an additional instance variable weight (double) in Kg while CountedItem has an additional variable quantity (int) both private.
+- Write an appropriate constructor for each of the classes making use of the constructor of the base class in defining those of the derive classes.
+- Override getPrice method that returns the price of the purchasedItem based on its unit price and weight (WeighedItem), or quantity (CountedItem).  Make use of getPrice of the base class
+- Override also toString method for each class making use of the toString method of the base class in defining those of the derive classes.
+toString should return something that can be printed on the receipt.
+For example   
+Banana @ 3.00   1.37Kg   4.11 SR (in case of WeighedItem class)
+Pens @ 4.5      10 units   45 SR (in case of CountedItem class)
+Write an application class where you construct objects from the two derive classes and print them on the screen.
+ 
+================================================================================
+
+
+Write a class that represent the loan in a bank. It has principal amount, number of periods, and an interest rate. Interest rate remains constant throughout the payment period.  Bank can issue several types of loans. Derive two classes for Serial Loan and Annuity Loans. The application should implement all classes and print a plan for the loan's amortization, which is a status of loan. You must be able to find out:
