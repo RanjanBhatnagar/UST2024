@@ -1,0 +1,12 @@
+1. Write a class Employee and in main use Arraylist of Employee objects.
+Display list
+also
+Sort list on the basis of Salary and display sorted records.
+(Hint Use IComparable)
+
+2. Write a class Employee and in main use Arraylist of Employee objects.
+Display list
+also
+Sort list on the basis of EmpName and display sorted records.
+(Hint Use IComparable)
+
