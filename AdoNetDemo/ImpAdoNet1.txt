@@ -1,0 +1,23 @@
+Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False
+
+
+Insert into Emp(EmpName, EmpSalary) values('Dinesh',34534);
+
+CRUD Op   DCL (Working with table structure)
+C--> Create, R--> Select,  U--> Alter, D--> Drop
+
+CRUD Op   DML (Working with table data)
+=======
+/// ExecuteNonQuery
+1. C -->   Insert
+3. U -->   Update
+4. D -->   Delete
+
+
+2. R -->	
+///ExecuteScalar	
+	A. Select scalar  
+		Select sum(salary) from emp; (one result)
+///ExecuteReader	
+	B. Select reader
+		Select * from emp;  (Collection of Recs)

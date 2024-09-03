@@ -1,0 +1,62 @@
+public class Helper
+{
+    public static string ConnectionString
+    {
+        get
+        {
+            return @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=USTDemoDB;Integrated Security=True";
+        }
+    }
+}
+
+/*=====================================================*/
+using System.Data;
+using System.Data;
+using Microsoft.Data.SqlClient;
+
+namespace AdoNetDemo
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /* We want to store a new record in Emptable of USTDemoDB database.
+             * We are writing everything in Main for learning purpose only
+             * Steps to execute any SQL Statement under connected approach
+                    1. Create a Connection Object
+                    2. Create a Command Object
+                    3. Bind the Command to Connection
+                    4. Initialize Command with SQL Statement
+                    5. Open the Connection
+                    6. Execute the Command
+                    7. Close the Connection
+             * */
+            // Create a Connection Object (SQL Server -- SQLClient - SQLConnection class)
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = Helper.ConnectionString;
+
+            //SqlConnection con = new SqlConnection(Helper.ConnectionStrin);
+
+            //Create a Command Object  (for CRUD -- Here insert is to be used)
+            SqlCommand cmd = new SqlCommand();
+            
+            //Bind the Command to Connection
+            cmd.Connection = con;
+
+            //Initialize Command with SQL Statement
+            cmd.CommandText = "Insert into Emp(EmpName, EmpSalary) values('" + "Dinesh" +"'," + "34534);";
+            cmd.CommandType = CommandType.Text;
+
+            //Open the Connection
+            con.Open();
+
+            //execute
+            cmd.ExecuteNonQuery();
+
+            //close the connection
+            con.Close();
+
+
+        }
+    }
+}
