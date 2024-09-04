@@ -1,0 +1,17 @@
+1. In Emp ADO.NET Demo Solution create two functions for
+	a. Insert Emp New Record (Id will be output and name and salary input)
+	b. Show All rows from Emp (SQL Data Reader) 
+for both of the options you need to create two stored procedures in SQL Server and invoke them into function of solution.
+
+=================================
+2. ADO.NET Implementation using connected approach.
+	A. Create a product database in SQL Server
+	B. Create a console application which will give a menu to end user.
+		1. Add New Product
+		2. Update Existing Product
+		3. Delete Existing Product
+		4. Get product details by ID
+		5. Get All products from table
+		0. Exit
+	NOTE : Only one connection string should be defined and used everywhere.
+=================================
