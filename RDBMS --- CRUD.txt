@@ -1,0 +1,23 @@
+RDBMS --- CRUD
+
+SQL  --- Language to work on RDBMS
+Microsoft SQL Server is common for .Net Platform 
+Microsoft say TSQL is Microsoft Way of using SQL
+T-SQL stands for Transaction SQL
+
+Connection
+ 1. Server Instance Name 
+	RBSLAPTOP   SQL Server Instance running on my system.
+	(localdb)\MSSQLLocalDB   SQL Server Local DB Instance
+ 2. Authentication
+	Windows --- Integrated Security of windows
+	SQL Server --- You need UserId and Password mostly used 	and provided by DBA people in an organization.
+============================================================
+
+Create Database
+Create Table
+perform CRUD
+
+
+
+	
