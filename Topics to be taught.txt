@@ -1,0 +1,91 @@
+Topics to be taught
+• Introduction to Programming  
+• Problem solving & Pseudocode
+• Introduction to Full Stack Development
+• Coding Standards/Best practices
+• Intro to compilers
+• Orientation and software setup 
+• Importance of Non-Functional Requirements (Performance, availability, security, resiliency)
+• Introduction to IDEs
+• The Software Development Lifecycle [SDLC] Process, Phases and Models
+• Software development job roles and growth opportunities
+• Control Flow
+• Functions
+• Exercises
+
+
+• Understanding Operating System Concepts
+• General LINUX COMMANDS
+• Shell Scripting Overview
+
+This topic will be going in parallel to the curriculum.
+• Version Controls Intro
+• Basics of working with Source Control systems like Git
+• Basic sanity/industry best practices on GIT
+• Using Git and the workflow
+• Working with local vs remote repositories
+• Git Branches, Cloning, Forking, Merging
+• Code reviews
+• Using GitHub for collaboration and more.
+• SSH + The access flow of one repo to other. User access controller
+• Intro to CI/CD and different types of git workflows. 
+(To be covered somewhere in content)(Can be put with backend modules)
+
+• Basic C# Fundamentals (Syntax, Data types,   Variables, Operators, Control Structures, Arrays, Methods etc.,) 	
+• Plug-ins, Setup, Tools (includes IDE), Enablers to standardize/speed up development 
+• Standard Solution/Project Structures.  
+• Time complexity
+• Coding Standards/Best practices
+• Daily exercises to be introduced
+
+
+• OO Programming (Classes, Objects, Interfaces, Packages, Access modifiers, Encapsulation, Abstraction, Inheritance, Polymorphism etc.)
+• Entity classes, Serialization/De-Serialization
+Coding Standards/Best practices
+•  Daily exercises to be introduced
+
+
+• Error/ Exceptions Handling, Custom Exceptions
+• Reading and writing data from files, JSON, and XML
+• Multithreading and Deadlocks-overview"
+
+• Generics, Collections, Lists, Maps, Trees, Heaps, Stacks & Queues
+• Searching and Sorting
+• Performance & Time complexity
+
+• Introduction to Quality Engineering, Unit testing with NUnit, & Basic Debugging skills.
+• Introduction to BDD approach.
+• Various phases of Testing along with gist of tools (Selenium, TestNG etc.) in the Market.
+• Introduction to Headless Testing. Aspects around Shift Left approach
+• SonarQube, Code quality & Code coverage, Refactoring,
+
+• C# Versions, LTS, Release Cycles
+• C# Features Understanding (Interface Enhancements, Functional / Reactive / Modular / Fluent / Stream Based Programming. Functional Interfaces, Lambda Expression / Functions. ForEach – Iterable, Method References, Streams API etc.,)
+• Introduction to SOLID Principles, Design Patterns
+• Creational design patterns, Structural design patterns, Behavioural design patterns
+• Documentation and Communication - UML, Mental Maps, PowerPoint etc.
+
+
+•  Introduction to Database - MS-SQL concepts (Working with MSSQL/PostgreSQL)
+•  Tables, Columns, Querying – simple joins, inner/outer joins, “where” clauses, aggregation functions, subquery, stored procedures, index, query tuning basics
+•  Intro to NoSql - MongoDB
+•  Sql vs NoSql
+
+
+• Introduction to ASP.net (Dependency Injection, IOC, MVC etc.,)
+• MVC Basics, Creating a MVC application
+• Introduction to REST, Creating REST API in ASP.Net Core
+• Business Layer, Filters
+• Connecting to Databases, Frameworks for Persistence (EF Core, SQL (MSSQL) & No-SQL (MongoDB))
+• Swagger Specification and Documentation
+• API Testing with Postman
+• Implementing security, Authorization and Authentication (JWT and OAuth)
+===================================================================
+In lieu of above section : HTML CSS JAVA SCRIPT need to be covered.
+===================================================================
+
+• Performance Testing
+• Agile methodology & way of working
+• Issue tracking, Reporting and Dashboards, Collaboration etc
+• Extreme Programming (XP), Scrum, Jira Boards
+
