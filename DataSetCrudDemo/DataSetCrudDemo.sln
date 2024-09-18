@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSetCrudDemo", "DataSetCrudDemo\DataSetCrudDemo.csproj", "{0B77183E-70F0-49CC-AF9B-5994B764B1B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B77183E-70F0-49CC-AF9B-5994B764B1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B77183E-70F0-49CC-AF9B-5994B764B1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B77183E-70F0-49CC-AF9B-5994B764B1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B77183E-70F0-49CC-AF9B-5994B764B1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1B8ACCE-AE9A-4627-A5C3-62309ACC6C85}
+	EndGlobalSection
+EndGlobal
