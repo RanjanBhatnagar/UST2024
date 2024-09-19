@@ -1,0 +1,9 @@
+As it was discussed with team in meeting, they are planning to conduct exam by keeping it simple as I told during classes.
+
+One question on C# i.e. logic building or may be crud operations using simple ADO.NET
+One question based on SQL query. (Concentrate on Joins)
+And 
+Last one small project for building simple Web Page(s) using HTML, CSS and simple Java Script.
+[Here they can give html forms and validations on fields]
+
+All the above statements are my assumptions based on the discussion. Nothing Official. 
